@@ -10,8 +10,8 @@ The goal of this project is to understand how AWS managed services work together
 
 ## Architecture
 
-![Elastic Beanstalk](IMG/6.png.)
- 
+![Elastic Beanstalk](IMG/6.png)
+
 Elastic Beanstalk hosts the application and automatically creates an RDS database inside the same VPC. A separate EC2 instance connects to the RDS database securely using security group rules.
 
 ---
